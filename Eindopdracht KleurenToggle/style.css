@@ -1,0 +1,147 @@
+header{
+    height: 100px;
+}
+h1{
+    width: 200px;
+    padding-left: 60px;
+    padding-right: 300px;
+    margin: auto;
+    font-size: 4rem;
+    color:black;
+}
+
+#hamburger{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#hamburger:hover{
+    width: 80px;
+    cursor: pointer;
+}
+
+.navMenuHide{
+    width: 155px;
+    position: fixed;
+    top: 60px;
+    left: -35px;
+    transform: translate3d(110vw, 110vh, 0);
+    transition: transform 2s cubic-bezier(0, 1, 0, 1);
+    z-index: 1000;
+}
+
+.navMenuDrop{
+    transform: translate3d(0vw, 0vh, 0);
+}
+
+.navMenuDrop:hover {
+    cursor: pointer;
+}
+
+.navMenuShow{
+    transform: translate3d(0vw, 0vh, 0);
+}
+
+.navMenuShow:hover {
+    cursor: pointer;
+}
+
+#navWrapper{
+    margin-left: 0px;
+}
+
+.kleurkeuzemenu{
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 30;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+#home{
+    background-color: white;
+}
+
+#rood{
+    background-color: red;
+}
+
+#blauw{
+    background-color: blue;
+}
+
+#geel{
+    background-color: yellow;
+}
+
+#groen{
+    background-color: green;
+}
+
+#paars{
+    background-color: purple;
+}
+
+#oranje{
+    background-color: orange;
+}
+
+.roodbg{
+    background-color: red;
+}
+
+.bluebg{
+    background-color: blue;
+}
+
+.yellowbg{
+    background-color: yellow;
+}
+
+.greenbg{
+    background-color: green;
+}
+
+.purplebg{
+    background-color: purple;
+}
+
+.orangebg{
+    background-color: orange;
+}
+
+#kleurKeuzeTekst{
+    margin: auto;
+    width: 80%;
+    font-size: 2.5rem;
+}
+
+#radioKleurKeuze{
+    border: 1px solid black;
+    background-color: rgb(180, 184, 194);
+    max-width: 800px;
+    position: fixed;
+    bottom: 40px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.kleurradiobutton {
+    display: inline;
+    width: 50px;
+}
+
+footer{
+    padding-left: 10px;
+    border: 1px solid black;
+    bottom: 0px;
+    left: -10px;
+    width: 100%;
+    background-color:orchid;
+    position: fixed;
+}
